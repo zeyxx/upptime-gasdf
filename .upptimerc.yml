@@ -12,11 +12,6 @@ sites:
     expectedStatusCodes:
       - 200
 
-  - name: HolDex API
-    url: https://asdev-backend.onrender.com/api/health
-    expectedStatusCodes:
-      - 200
-
 status-website:
   cname: status.asdfasdfa.tech
   logoUrl: https://asdfasdfa.tech/logo.png
