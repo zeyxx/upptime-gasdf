@@ -37,22 +37,22 @@
   },
   {
     "name": "HolDex API",
-    "url": "https://asdev-backend.onrender.com/api/health",
+    "url": "https://asdev-backend.onrender.com/api/tokens",
     "icon": "https://icons.duckduckgo.com/ip3/asdev-backend.onrender.com.ico",
     "slug": "hol-dex-api",
-    "status": "down",
-    "uptime": "7.26%",
-    "uptimeDay": "7.26%",
-    "uptimeWeek": "7.26%",
-    "uptimeMonth": "7.26%",
-    "uptimeYear": "7.26%",
-    "time": 193,
-    "timeDay": 193,
-    "timeWeek": 193,
-    "timeMonth": 193,
-    "timeYear": 193,
+    "status": "up",
+    "uptime": "0.12%",
+    "uptimeDay": "0.12%",
+    "uptimeWeek": "0.12%",
+    "uptimeMonth": "0.12%",
+    "uptimeYear": "0.12%",
+    "time": 244,
+    "timeDay": 244,
+    "timeWeek": 244,
+    "timeMonth": 244,
+    "timeYear": 244,
     "dailyMinutesDown": {
-      "2026-01-03": 0
+      "2026-01-03": 50
     }
   }
 ]
