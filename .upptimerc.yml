@@ -13,7 +13,7 @@ sites:
       - 200
 
   - name: HolDex API
-    url: https://asdev-backend.onrender.com/api/health
+    url: https://asdev-backend.onrender.com/api/tokens
     expectedStatusCodes:
       - 200
 
