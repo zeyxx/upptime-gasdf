@@ -1,0 +1,58 @@
+[
+  {
+    "name": "GASdf API",
+    "url": "https://asdfasdfa.tech/health",
+    "icon": "https://icons.duckduckgo.com/ip3/asdfasdfa.tech.ico",
+    "slug": "ga-sdf-api",
+    "status": "up",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
+    "time": 482,
+    "timeDay": 482,
+    "timeWeek": 482,
+    "timeMonth": 482,
+    "timeYear": 482,
+    "dailyMinutesDown": {}
+  },
+  {
+    "name": "GASdf Status",
+    "url": "https://asdfasdfa.tech/status",
+    "icon": "https://icons.duckduckgo.com/ip3/asdfasdfa.tech.ico",
+    "slug": "ga-sdf-status",
+    "status": "up",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
+    "time": 301,
+    "timeDay": 301,
+    "timeWeek": 301,
+    "timeMonth": 301,
+    "timeYear": 301,
+    "dailyMinutesDown": {}
+  },
+  {
+    "name": "HolDex API",
+    "url": "https://asdev-backend.onrender.com/api/health",
+    "icon": "https://icons.duckduckgo.com/ip3/asdev-backend.onrender.com.ico",
+    "slug": "hol-dex-api",
+    "status": "down",
+    "uptime": "7.26%",
+    "uptimeDay": "7.26%",
+    "uptimeWeek": "7.26%",
+    "uptimeMonth": "7.26%",
+    "uptimeYear": "7.26%",
+    "time": 193,
+    "timeDay": 193,
+    "timeWeek": 193,
+    "timeMonth": 193,
+    "timeYear": 193,
+    "dailyMinutesDown": {
+      "2026-01-03": 0
+    }
+  }
+]
