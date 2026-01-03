@@ -1,22 +1,24 @@
 name: Uptime CI
-
 on:
   schedule:
     - cron: "*/5 * * * *"
   workflow_dispatch:
   push:
-    branches:
-      - main
+    branches: [main]
+
+permissions:
+  contents: write
+  issues: write
 
 jobs:
   uptime:
+    name: Check status
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
         with:
-          node-version: 18
-      - uses: upptime/uptime-monitor@v1
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - uses: upptime/uptime-monitor@v1.41.0
         with:
           command: update
         env:
