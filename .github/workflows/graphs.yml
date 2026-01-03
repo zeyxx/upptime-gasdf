@@ -2,7 +2,7 @@ name: Graphs CI
 
 on:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "*/5 * * * *"
   workflow_dispatch:
 
 jobs:
@@ -10,7 +10,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: upptime/uptime-monitor@v1.36.0
+      - uses: actions/setup-node@v4
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+          node-version: 18
+      - uses: upptime/uptime-monitor@v1
+        with:
           command: graphs
+        env:
+          GH_PAT: ${{ secrets.GITHUB_TOKEN }}
