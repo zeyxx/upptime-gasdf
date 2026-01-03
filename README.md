@@ -10,11 +10,11 @@ This repository contains the uptime monitor and status page for **GASdf** - the 
 
 ## Monitored Services
 
-| Service | URL |
-|---------|-----|
-| GASdf API | https://asdfasdfa.tech/health |
-| GASdf Status | https://asdfasdfa.tech/status |
-| HolDex API | https://asdev-backend.onrender.com/api/health |
+| Service      | URL                                           |
+| ------------ | --------------------------------------------- |
+| GASdf API    | https://asdfasdfa.tech/health                 |
+| GASdf Status | https://asdfasdfa.tech/status                 |
+| HolDex API   | https://asdev-backend.onrender.com/api/health |
 
 ## Status Page
 
